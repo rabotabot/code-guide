@@ -1,9 +1,9 @@
-/* Single declarations on one line */
+/* Одиночные объявления в одну строчку */
 .span1 { width: 60px; }
 .span2 { width: 140px; }
 .span3 { width: 220px; }
 
-/* Multiple declarations, one per line */
+/* Несколько объявлений, по одному на каждую строчку */
 .sprite {
   display: inline-block;
   width: 16px;

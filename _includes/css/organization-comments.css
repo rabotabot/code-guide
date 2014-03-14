@@ -1,17 +1,17 @@
 /*
- * Component section heading
+ * Заголовок раздела для компонента
  */
 
 .element { ... }
 
 
 /*
- * Component section heading
+ * Заголовок раздела для компонента
  *
  * Sometimes you need to include optional context for the entire component. Do that up here if it's important enough.
  */
 
 .element { ... }
 
-/* Contextual sub-component or modifer */
+/* Контекстный под-компонент или модификатор */
 .element-heading { ... }
