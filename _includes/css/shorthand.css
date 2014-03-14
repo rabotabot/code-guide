@@ -1,4 +1,4 @@
-/* Bad example */
+/* Плохой пример */
 .element {
   margin: 0 0 10px;
   background: red;
@@ -6,7 +6,7 @@
   border-radius: 3px 3px 0 0;
 }
 
-/* Good example */
+/* Хороший пример */
 .element {
   margin-bottom: 10px;
   background-color: red;
