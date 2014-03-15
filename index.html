@@ -206,16 +206,16 @@ layout: default
 <div class="section" id="css-declaration-order">
   <div class="col">
     <h3>Порядок объявления</h3>
-    <p>Related property declarations should be grouped together following the order:</p>
+    <p>Объявления связанных свойств должны быть сгруппированы по следующему порядку:</p>
     <ol>
       <li>Позиционирование</li>
       <li>Блочная модель</li>
       <li>Типографика</li>
       <li>Отображение</li>
     </ol>
-    <p>Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.</p>
-    <p>Everything else takes place <em>inside</em> the component or without impacting the previous two sections, and thus they come last.</p>
-    <p>For a complete list of properties and their order, please see <a href="http://twitter.github.com/recess">Recess</a>.</p>
+    <p>Позиционирование следует первым потому, что оно может удалить элемент из нормального потока документа и переопределить блочную модель связанных стилей. Блочная модель идет следующей так, как она диктует размеры и расположение компонента.</p>
+    <p>Все остальное, выполняющееся <em>внутри</em> компонента или не оказывающее влияния на предыдущие два раздела, идут в последнюю очередь.</p>
+    <p>Для полного списка свойств и их порядка, пожалуйста, ознакомьтесь с <a href="http://twitter.github.com/recess">Recess</a>.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/declaration-order.css %}{% endhighlight %}
