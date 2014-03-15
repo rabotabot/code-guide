@@ -26,7 +26,7 @@ layout: default
     <ul>
       <li><a href="#css-syntax">CSS синтаксис</a></li>
       <li><a href="#css-declaration-order">Порядок объявления</a></li>
-      <li><a href="#css-media-queries">Media query placement</a></li>
+      <li><a href="#css-media-queries">Место для media query</a></li>
       <li><a href="#css-prefixed-properties">Свойства с префиксами</a></li>
       <li><a href="#css-single-declarations">Правила с одиночными объявлениями</a></li>
       <li><a href="#css-shorthand">Сокращенная запись</a></li>
@@ -113,14 +113,14 @@ layout: default
 <div class="section" id="html-practicality">
   <div class="col">
     <h3>Практичность важнее чистоты</h3>
-    <p>Strive to maintain HTML standards and semantics, but not at the expense of practicality. Use the least amount of markup with the fewest intricacies whenever possible.</p>
+    <p>Старайтесь поддерживать стандарты HTML и семантику, но не за счет практичности. Используйте меньшее количество разметки с наименьшим числом тонкостей, когда это возможно.</p>
   </div>
 </div>
 
 <div class="section" id="html-attribute-order">
   <div class="col">
     <h3>Порядок атрибутов</h3>
-    <p>HTML attributes should come in this particular order for easier reading of code.</p>
+    <p>Для удобства чтения кода HTML-атрибуты должны быть указаны в определенном порядке:</p>
     <ul>
       <li><code>class</code></li>
       <li><code>id</code>, <code>name</code></li>
@@ -158,7 +158,7 @@ layout: default
 <div class="section" id="html-reducing-markup">
   <div class="col">
     <h3>Сокращение разметки</h3>
-    <p>Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML. Take the following example:</p>
+    <p>Всякий раз, когда это возможно, избегайте лишних родительских элементов при написании HTML. Во многих случаях это требует повторения и рефакторинга, но создает меньше HTML-разметки. Посмотрите на следующий пример:</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/reducing-markup.html %}{% endhighlight %}
@@ -168,7 +168,7 @@ layout: default
 <div class="section" id="html-javascript">
   <div class="col">
     <h3>Разметка, генерируемая с помощью JavaScript</h3>
-    <p>Writing markup in a JavaScript file makes the content harder to find, harder to edit, and less performant. Avoid it whenever possible.</p>
+    <p>Написание разметки в JavaScript-файлах делает ее сложной для поиска, сложной для редактирования и менее производительной. По возможности, избегайте этого.</p>
   </div>
 </div>
 
@@ -208,10 +208,10 @@ layout: default
     <h3>Порядок объявления</h3>
     <p>Related property declarations should be grouped together following the order:</p>
     <ol>
-      <li>Positioning</li>
-      <li>Box model</li>
-      <li>Typographic</li>
-      <li>Visual</li>
+      <li>Позиционирование</li>
+      <li>Блочная модель</li>
+      <li>Типографика</li>
+      <li>Отображение</li>
     </ol>
     <p>Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.</p>
     <p>Everything else takes place <em>inside</em> the component or without impacting the previous two sections, and thus they come last.</p>
@@ -224,7 +224,7 @@ layout: default
 
 <div class="section" id="css-media-queries">
   <div class="col">
-    <h3>Media query placement</h3>
+    <h3>Место для media query</h3>
     <p>Place media queries as close to their relevant rule sets whenever possible. Don't bundle them all in a separate stylesheet or at the end of the document. Doing so only makes it easier for folks to miss them in the future. Here's a typical setup.</p>
   </div>
   <div class="col">
