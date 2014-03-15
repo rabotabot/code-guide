@@ -97,12 +97,12 @@ layout: default
 <div class="section" id="html-style-script">
   <div class="col">
     <h3>Подключение CSS и JavaScript</h3>
-    <p>Per HTML5 spec, typically there is no need to specify a <code>type</code> when including CSS and JavaScript files as <code>text/css</code> and <code>text/javascript</code> are their respective defaults.</p>
-    <h4>HTML5 spec links</h4>
+    <p>Согласно спецификации HTML5, обычно не требуется указание атрибута <code>type</code> при подключении CSS и JavaScript файлов так как <code>text/css</code> and <code>text/javascript</code> являются значениями по умолчанию.</p>
+    <h4>Ссылки на спецификацию HTML5:</h4>
     <ul>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">Using link</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">Using style</a></li>
-      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">Using script</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element">Использование тега link</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element">Использование тега style</a></li>
+      <li><a href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element">Использование тега script</a></li>
     </ul>
   </div>
   <div class="col">
@@ -120,7 +120,7 @@ layout: default
 <div class="section" id="html-attribute-order">
   <div class="col">
     <h3>Порядок атрибутов</h3>
-    <p>Для удобства чтения кода HTML-атрибуты должны быть указаны в определенном порядке:</p>
+    <p>Для удобства чтения HTML-атрибуты должны быть указаны в определенном порядке:</p>
     <ul>
       <li><code>class</code></li>
       <li><code>id</code>, <code>name</code></li>
@@ -257,7 +257,7 @@ layout: default
 <div class="section" id="css-shorthand">
   <div class="col">
     <h3>Сокращенная запись</h3>
-    <p>Strive to limit use of shorthand declarations to instances where you must explicitly set all the available values. Common overused shorthand properties include:</p>
+    <p>Старайтесь ограничить использование сокращенных объявлений в тех случаях, когда необходимо явно задать все доступные значения. Common overused shorthand properties include:</p>
     <ul>
       <li><code>padding</code></li>
       <li><code>margin</code></li>
@@ -266,7 +266,7 @@ layout: default
       <li><code>border</code></li>
       <li><code>border-radius</code></li>
     </ul>
-    <p>Often times we don't need to set all the values a shorthand property represents. For example, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.</p>
+    <p>Often times we don't need to set all the values a shorthand property represents. Например, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.</p>
     <p>The Mozilla Developer Network has a great article on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">shorthand properties</a> for those unfamiliar with notation and behavior.</p>
   </div>
   <div class="col">
@@ -277,7 +277,7 @@ layout: default
 <div class="section" id="css-nesting">
   <div class="col">
     <h3>Вложенность в Less и Sass</h3>
-    <p>Избегайте излюшнюю вложенность. Just because you can nest, doesn't mean you always should. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.</p>
+    <p>Избегайте излюшнюю вложенность. Просто потому, что вы можете ее использователь, не означает, что вы всегда это делать. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.</p>
   </div>
   <div class="col">
     {% highlight scss %}{% include css/nesting.scss %}{% endhighlight %}
@@ -287,8 +287,8 @@ layout: default
 <div class="section" id="css-comments">
   <div class="col">
     <h3>Комментарии</h3>
-    <p>Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.</p>
-    <p>Be sure to write in complete sentences for larger comments and succinct phrases for general notes.</p>
+    <p>Код написан и поддерживается людьми. Убедитесь, что ваш код является описательным, хорошо прокомментирован и доступным (понятным) для других. Хорошие комментарии к коду передают контекст и цель кода, а не просто повторяют название класса или компонента.</p>
+    <p>Обязательно пишите законченные предложения для больших комментариев и короткие фразы для общих замечаний.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/comments.css %}{% endhighlight %}
