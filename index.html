@@ -182,21 +182,21 @@ layout: default
   <div class="col">
     <h3>Синтаксис</h3>
     <ul>
-      <li>Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.</li>
-      <li>When grouping selectors, keep individual selectors to a single line.</li>
-      <li>Include one space before the opening brace of declaration blocks for legibility.</li>
-      <li>Place closing braces of declaration blocks on a new line.</li>
-      <li>Include one space after <code>:</code> for each declaration.</li>
-      <li>Each declaration should appear on its own line for more accurate error reporting.</li>
-      <li>End all declarations with a semi-colon. The last declaration's is optional, but your code is more error prone without it.</li>
-      <li>Comma-separated property values should include a space after each comma (e.g., <code>box-shadow</code>).</li>
-      <li>Don't include spaces after commas <em>within</em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, or <code>rect()</code> values. This helps differentiate multiple color values (comma, no space) from multiple property values (comma with space). Also, don't prefix values with a leading zero (e.g., <code>.5</code> instead of <code>0.5</code>).</li>
-      <li>Lowercase all hex values, e.g., <code>#fff</code>. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.</li>
-      <li>Use shorthand hex values where available, e.g., <code>#fff</code> instead of <code>#ffffff</code>.</li>
-      <li>Quote attribute values in selectors, e.g., <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">They’re only optional in some cases</a>, and it’s a good practice for consistency.</li>
-      <li>Avoid specifying units for zero values, e.g., <code>margin: 0;</code> instead of <code>margin: 0px;</code>.</li>
+      <li>Используйте мягкие отступы с двумя символами пробела &mdash; это единственный способ, гарантирующий, что ваш код будет одинаково выглядеть в любом случае.</li>
+      <li>При группировке селекторов помещайте каждый селектор на отдельную строчку.</li>
+      <li>Для лучшей читаемости оставляйте один пробел перед открывающейся фигурной скобкой блока объявлений.</li>
+      <li>Помещайте закрывающуюся фигурную скобку блока объявлений на новой строке.</li>
+      <li>Оставляйте один пробел после <code>:</code> для каждого объявления.</li>
+      <li>Каждое объявление должно находится на отдельной строчке для более точного сообщения об ошибках.</li>
+      <li>Заканчивайте все объявления точкой с запятой. Для последнего объявления в блоке это не является обязательным, но ваш код будет более подвержен ошибкам.</li>
+      <li>Для свойств, значения которых разделены запятыми, следуюет оставлять по одному пробелу после каждой запятой (например, <code>box-shadow</code>).</li>
+      <li>Не оставляйте пробелов после запятых <em>внтури</em> значений <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, или <code>rect()</code>. Это помогает различать различные цветовые значения (запятая без пробела) от нескольких значений одного свойства (запятая с пробелом). Так же не добавляйте начальный ноль для значений (например, <code>.5</code> вместо <code>0.5</code>).</li>
+      <li>Все 16-ичные значения записывайте строчными буквами (в нижнем регистре), например, <code>#fff</code>. Строчные буквы гораздо легче различить при сканировании документа, поскольку они, как правило, имеют больше уникальных форм.</li>
+      <li>Используйте короткие 16-ичные значения везде, где это возможно, например, <code>#fff</code> вместо <code>#ffffff</code>.</li>
+      <li>Всегда берите в кавычки значения атрибутов внутри селектора, например, <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">В некоторых случаях это делать необязательно</a>, но это является хорошей практикой для поддержки согласованности.</li>
+      <li>Опускайте единицы измерения при нулевом значении, например, <code>margin: 0;</code> вместо <code>margin: 0px;</code>.</li>
     </ul>
-    <p>Questions on the terms used here? See the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">syntax section of the Cascading Style Sheets article</a> on Wikipedia.</p>
+    <p>Есть вопросы по перечисленным утверждениям? Ознакомьтесь с <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">разделом о синтаксисе статьи о каскадных таблицах стилей</a> на Википедии.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/syntax.css %}{% endhighlight %}
