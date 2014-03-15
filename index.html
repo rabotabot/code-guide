@@ -34,7 +34,7 @@ layout: default
       <li><a href="#css-comments">Комментарии</a></li>
       <li><a href="#css-classes">Имена классов</a></li>
       <li><a href="#css-selectors">Селекторы</a></li>
-      <li><a href="#css-organization">Организация</a></li>
+      <li><a href="#css-organization">Организация кода</a></li>
     </ul>
   </div>
 </div>
@@ -257,7 +257,7 @@ layout: default
 <div class="section" id="css-shorthand">
   <div class="col">
     <h3>Сокращенная запись</h3>
-    <p>Старайтесь ограничить использование сокращенных объявлений в тех случаях, когда необходимо явно задать все доступные значения. Common overused shorthand properties include:</p>
+    <p>Старайтесь ограничить использование сокращенных объявлений в тех случаях, когда необходимо явно задать все доступные значения. Наиболее часто злоупотребляют сокращением следующих свойств:</p>
     <ul>
       <li><code>padding</code></li>
       <li><code>margin</code></li>
@@ -266,8 +266,8 @@ layout: default
       <li><code>border</code></li>
       <li><code>border-radius</code></li>
     </ul>
-    <p>Often times we don't need to set all the values a shorthand property represents. Например, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.</p>
-    <p>The Mozilla Developer Network has a great article on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">shorthand properties</a> for those unfamiliar with notation and behavior.</p>
+    <p>Часто нам не нужно устанавливать все значения сокращенной записи свойства. Например, HTML заголовки устанавливают только отступы сверху и снизу, таким образом, в случае необходимости нужно будет переопределить только эти два значения. Чрезмерное использование сокращенной записи свойств часто приводит к грязному коду с ненужными переопределения и непреднамеренными побочными эффектами.</p>
+    <p>На сайте Mozilla Developer Network есть отличная статья о <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">сокращенной записи свойств</a> для тех кто с ней не знаком.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/shorthand.css %}{% endhighlight %}
@@ -321,7 +321,7 @@ layout: default
       <li>Keep selectors short and strive to limit the number of elements in each selector to three.</li>
       <li>Scope classes to the closest parent <strong>only</strong> when necessary (e.g., when not using prefixed classes).</li>
     </ul>
-    <p>Additional reading:</p>
+    <p>Дополнительно к прочтению:</p>
     <ul>
       <li><a href="http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/">Scope CSS classes with prefixes</a></li>
       <li><a href="http://markdotto.com/2012/03/02/stop-the-cascade/">Stop the cascade</a></li>
@@ -334,7 +334,7 @@ layout: default
 
 <div class="section" id="css-organization">
   <div class="col">
-    <h3>Организация</h3>
+    <h3>Организация кода</h3>
     <ul>
       <li>Organize sections of code by component.</li>
       <li>Develop a consistent commenting hierarchy.</li>
