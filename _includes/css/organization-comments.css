@@ -8,7 +8,7 @@
 /*
  * Заголовок раздела для компонента
  *
- * Sometimes you need to include optional context for the entire component. Do that up here if it's important enough.
+ * Иногда возникает необходимость включения дополнительного контекста для всего компонента. Сделайте это в этом месте, если это достаточно важно.
  */
 
 .element { ... }
