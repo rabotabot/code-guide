@@ -1,5 +1,5 @@
 name:          Руководство по написанию кода от @mdo
-description:   Стандарты для разработки гибкого, прочного и устойчивого кода на HTML и CSS.
+description:   Стандарты для разработки гибкого, надежного и поддерживаемого кода на HTML и CSS.
 url:           http://mdo.github.com/code-guide
 
 markdown:      rdiscount
