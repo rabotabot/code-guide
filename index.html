@@ -105,7 +105,7 @@ layout: default
 <div class="section" id="html-ie-compatibility-mode">
   <div class="col">
     <h3>Режим совместимости Internet Explorer</h3>
-    <p>Internet Explorer поддерживает использование специального <code>&lt;meta&gt;</code>-тега, который указывает в режиме совместимости с какой версией IE следует отрендерить страницу. Если обстоятельства не требуют какой-то специальной версии IE, то самым правильным будет заставить браузер использовать режим самой последней версии (<strong>edge mode</strong>).</p>
+    <p>IE поддерживает использование специального <code>&lt;meta&gt;</code>-тега, который указывает в режиме совместимости с какой версией IE следует отрендерить страницу. Если обстоятельства не требуют какой-то специальной версии IE, то самым правильным будет заставить браузер использовать режим самой последней версии (<strong>edge mode</strong>).</p>
     <p>Для получения дополнительной информации следует познакомиться со <a href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e">статьей на Stack Overflow</a>.</p>
   </div>
   <div class="col">
@@ -116,7 +116,7 @@ layout: default
 <div class="section" id="html-encoding">
   <div class="col">
     <h3>Кодировка символов</h3>
-    <p>Явно объявив кодировку символов, вы быстро и легко обеспечите правильное отображение вашего контента. When doing so, you may avoid using character entities in your HTML, provided their encoding matches that of the document (generally UTF-8).</p>
+    <p>Явно объявив кодировку символов, вы быстро и легко обеспечите правильное отображение вашего контента. При этом, вы сможете избежать использования <a href="http://www.w3schools.com/html/html_entities.asp">символьных сущностей</a> в вашем HTML-коде, при условии, что их кодировка совпадает с кодировкой документа (как правило, UTF-8).</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/encoding.html %}{% endhighlight %}
