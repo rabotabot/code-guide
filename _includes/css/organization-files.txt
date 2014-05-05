@@ -1,4 +1,4 @@
-stylesheets/
+css/
 ├── normalize.css
 ├── buttons.css
 ├── forms.css

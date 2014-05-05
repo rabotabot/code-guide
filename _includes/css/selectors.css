@@ -1,9 +1,17 @@
 /* Плохой пример */
-span { ... }
-.page-container #stream .stream-item .tweet .tweet-header .username { ... }
-.avatar { ... }
+span { /* ... */ }
+.page-container #stream .stream-item .tweet .tweet-header .username { /* ... */ }
+.avatar { /* ... */ }
 
 /* Хороший пример */
-.avatar { ... }
-.tweet-header .username { ... }
-.tweet .avatar { ... }
+.avatar {
+	/* ... */
+}
+
+.tweet-header .username {
+	/* ... */
+}
+
+.tweet .avatar {
+	/* ... */
+}
