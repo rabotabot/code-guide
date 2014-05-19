@@ -11,16 +11,16 @@ layout: nil
 	font-family: 'fontello';
 	src: url('font/fontello.eot');
 	src: url('font/fontello.eot#iefix') format('embedded-opentype'),
-			 url('font/fontello.woff') format('woff'),
-			 url('font/fontello.ttf') format('truetype'),
-			 url('font/fontello.svg') format('svg');
+		 url('font/fontello.woff') format('woff'),
+		 url('font/fontello.ttf') format('truetype'),
+		 url('font/fontello.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-	font-family: "fontello";
+	font-family: 'fontello';
 	font-style: normal;
 	font-weight: normal;
 	speak: none;
@@ -53,7 +53,7 @@ html {
 
 body {
 	margin: 0;
-	font: 1rem/1.5 "PT Sans", sans-serif;
+	font: 1rem/1.5 'PT Sans', sans-serif;
 	color: #5a5a5a;
 }
 
@@ -120,7 +120,7 @@ blockquote:last-child{
 
 code,
 pre {
-	font-family: "PT Mono", Menlo, "Courier New", monospace;
+	font-family: 'PT Mono', Menlo, 'Courier New', monospace;
 	font-size: 95%;
 	-moz-tab-size: 4;
 	-o-tab-size: 4;

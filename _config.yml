@@ -2,6 +2,7 @@ name:          Руководство по написанию кода в CSSSR
 description:   Стандарты для разработки гибкого, надёжного и поддерживаемого кода на HTML и CSS.
 url:           http://csssr.github.io/code-guide/
 
+encoding:      utf-8
 markdown:      rdiscount
 permalink:     pretty
 pygments:      true

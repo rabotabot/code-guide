@@ -1,11 +1,9 @@
-/* Плохой пример */
-/* Modal header */
-.modal-header {
+// Плохой пример
+// Modal header
+.modal-header
 	/* ... */
-}
 
-/* Хороший пример */
-/* Обёртывающий элемент для .modal-title и .modal-close */
-.modal-header {
+// Хороший пример
+// Обёртка для .modal-title и .modal-close
+.modal-header
 	/* ... */
-}

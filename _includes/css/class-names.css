@@ -1,17 +1,20 @@
 /* Плохой пример */
+body .block .element div i { /* ... */ }
 .t { /* ... */ }
 .red { /* ... */ }
-.header { /* ... */ }
+
 
 /* Хороший пример */
-.tweet {
-	/* ... */
-}
+.block { /* ... */ }
+
+.block_state_current { /* ... */ }
+
+.block__element { /* ... */ }
+
+.block__element_state_disabled { /* ... */ }
+
+.block__element-item { /* ... */ }
 
 .important {
-	/* ... */
-}
-
-.tweet-header {
 	/* ... */
 }
